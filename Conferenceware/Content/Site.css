@@ -1,0 +1,201 @@
+﻿/*@import url('./reset.css');*/
+@import url('south-street/jquery-ui-1.7.2.custom.css');
+@import url('timepicker.css');
+
+
+/* main site structure */
+body 
+{
+	
+}
+
+td
+{
+    background: #ddd;
+}
+
+.hidden
+{
+    display: none;
+}
+
+div#header
+{
+	clear: both;
+	height: 175px;
+	margin-top: 20px;
+}
+
+div#logindisplay
+{
+	color:#CDA8CF;
+	font:italic 12px Georgia,Garamond,"Times New Roman",serif;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+div#logindisplay a
+{
+	color:#CDA8CF;
+	text-decoration: none;
+}
+
+div#logindisplay a:hover , div#logindisplay a:active
+{
+	color:#F9BB0F;
+	text-decoration: none;
+}
+
+div#navigation
+{
+	width: 824px;
+	margin: auto;
+}
+
+#navigation #menu 
+{
+	margin-right: 50px;
+	float: right;
+	list-style: none outside none;
+}
+
+#navigation #menu li 
+{
+	color:#CDA8CF;
+	font:italic 12px Georgia,Garamond,"Times New Roman",serif;
+	height:27px;
+	padding:5px 3px 0 7px;
+	text-decoration:none;
+	float: left;
+	position: relative;
+}
+
+#navigation #menu li a
+{
+	color:#CDA8CF;
+	height:27px;
+	padding:5px 3px 0 7px;
+	text-decoration:none;
+	float: left;
+}
+
+#navigation #menu li a:hover , #navigation #menu li a:active
+{
+	color:#F9BB0F;
+	height:27px;
+	padding:5px 3px 0 7px;
+	text-decoration:none;
+	float: left;
+}
+
+#navigation ul#menu li ul.submenu
+{
+	list-style: none;
+	position: absolute;
+	left: 0; top: 35px;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border-left: 1px solid #F9BB0F;
+}
+
+#header #logo a:link, #header #logo a:visited, #header #logo a:hover, #header #logo a:active {
+	display: block;
+	width: 824px;
+	height: 113px;
+	margin: 0 auto;
+	background: transparent url('img/logo.png') no-repeat;
+	text-indent: -9999px;
+}
+	
+#footer 
+{
+	
+	display: block;
+	clear: both;
+	font: 0.77em Tahoma, Helvetica, sans-serif;
+	background-color: #832D91;
+	color: #f0f7ed;
+	padding: 5px 5px;
+	border-top: 3px solid #c274d0;
+	text-align:center;
+}
+
+#footer p{
+  padding-left:30px;
+}
+
+div#main
+{
+	color: #4F5050;
+	font-family: Sans-Serif;
+	margin-left: 200px;
+	margin-right: 200px;
+	min-height: 450px;
+}
+
+div#main a 
+{
+	color: #964F9F;
+	text-decoration: none;
+}
+
+div#main a:hover , div#main a:active
+{
+	color:#F9BB0F;
+	text-decoration: none;
+}
+
+/*div#main a:visited
+{
+	color:#CDA8CF;
+	text-decoration: none;
+}*/
+
+/* Badge related styles */
+.display-label
+{
+    font-weight: bold;
+}
+
+.entry-with-inline-form form
+{
+    display: inline;
+}
+
+.badge-background-image
+{
+    width: 3in;
+    height: 4in;
+}
+
+.invoice-logo
+{
+    width: 2cm;
+}
+
+#images
+{
+	margin: 0 0 0 0;
+	display: block;
+	height: 800px;
+	width: 750px;
+}
+
+#images img
+{
+	display: block;
+	float: left;
+	margin: 0 0 1px 1px; 
+}
+#names
+{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	display: block;
+	left: 850px;
+	top: 250px;
+}
